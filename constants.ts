@@ -7,10 +7,10 @@ export const TOTALS = {
 };
 
 export const SUBCATEGORY_TOTALS = {
-  threads: 534,
-  traffic: 7008,
-  keywords: 12197,
-  serpTop10: 476,
+  threads: 531,
+  traffic: 6818,
+  keywords: 12132,
+  serpTop10: 473,
 };
 
 export const DATA: CategoryData[] = [
@@ -61,14 +61,5 @@ export const DATA: CategoryData[] = [
       { title: "What's a remote access code?", url: "https://www.reddit.com/r/techsupport/comments/1avm179/whats_a_remote_access_code/" },
       { title: "Is it safe to allow friends and family remote access?", url: "https://www.reddit.com/r/jellyfin/comments/olvtvk/is_it_safe_to_allow_friends_and_family_remote/" }
     ]
-  },
-  {
-    category: "Unattended Remote Access",
-    totalRedditThreads: 3,
-    sumOfTraffic: 190,
-    sumOfKeywords: 65,
-    averageKeywordPosition: 1.0,
-    threadsInSERPTop10: 3,
-    threads: []
   },
 ];

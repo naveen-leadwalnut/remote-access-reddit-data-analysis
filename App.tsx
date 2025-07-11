@@ -29,7 +29,7 @@ const App: React.FC = () => {
 
           {/* Sub Categories in Ransomware */}
           <section>
-            <h2 className="text-2xl font-semibold text-white mb-4">Top Sub Categories in Remote Access</h2>
+            <h2 className="text-2xl font-semibold text-white mb-4">Top 4 Sub Categories in Remote Access</h2>
             <p className="text-slate-400 mb-6">From the total dataset, we've filtered and analyzed several key sub categories. The metrics below represent the data points within these specific groups.</p>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               <StatCard title="Total Reddit Threads" value={SUBCATEGORY_TOTALS.threads.toLocaleString()} icon={<ThreadsIcon />} iconBgColor="bg-sky-500/80"/>
